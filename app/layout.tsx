@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:"HeatSafe",description:"Compare fictional routes using temperature observations and available cooling spaces.",icons:{icon:'/favicon.svg'}};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
